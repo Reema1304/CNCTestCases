@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ts.package2.SalesTestCases">
+      <class name="com.ts.package3.GetCurrentURL">
         <methods>
-          <include name="managerLogin_Sales"/>
-          <include name="closeBrowser"/>
-          <include name="actionsButton"/>
+          <include name="currentUrl"/>
         </methods>
-      </class> <!-- com.ts.package2.SalesTestCases -->
+      </class> <!-- com.ts.package3.GetCurrentURL -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
